@@ -1,0 +1,10 @@
+[package]
+name = "mk"
+version = "0.1.0"
+edition = "2024"
+description = "A simple tool to create files and directories"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+tempfile = "3"
